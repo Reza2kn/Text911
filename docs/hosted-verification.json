@@ -1,0 +1,35 @@
+[
+  {
+    "path": "/healthz",
+    "status": 200
+  },
+  {
+    "path": "/data/registry.json",
+    "status": 200,
+    "date": "2026-09-15",
+    "records": 3653
+  },
+  {
+    "path": "/reports/accessibility.html",
+    "status": 200
+  },
+  {
+    "path": "/reports/county-spot-checks.html",
+    "status": 200
+  },
+  {
+    "path": "/api/address",
+    "status": 200,
+    "county": "11001"
+  },
+  {
+    "path": "/api/location",
+    "status": 200,
+    "county": "53033"
+  },
+  {
+    "path": "/api/location",
+    "status": 200,
+    "county": null
+  }
+]
