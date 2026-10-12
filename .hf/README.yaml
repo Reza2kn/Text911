@@ -1,0 +1,10 @@
+title: Text911
+emoji: 📍
+colorFrom: green
+colorTo: gray
+sdk: docker
+app_port: 7860
+fullWidth: true
+header: mini
+license: mit
+short_description: FCC Text-to-911 readiness, county by county

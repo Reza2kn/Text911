@@ -1,0 +1,47 @@
+{
+  "url": "/",
+  "state": "home",
+  "width": 516,
+  "height": 598,
+  "pageWidth": 516,
+  "pageHeight": 598,
+  "timestamp": "2026-10-12T19:08:44.462Z",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "aria-prohibited-attr",
+      "nodes": [
+        {
+          "target": [
+            ".legend"
+          ],
+          "summary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+        }
+      ]
+    },
+    {
+      "id": "color-contrast",
+      "nodes": [
+        {
+          "target": [
+            "#list-view > span[aria-hidden=\"true\"]"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "target": [
+            "#zoom-reset"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "target": [
+            "#search-button > span[aria-hidden=\"true\"]"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ],
+  "passes": 24
+}

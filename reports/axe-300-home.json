@@ -1,0 +1,36 @@
+{
+  "url": "/",
+  "state": "home",
+  "width": 300,
+  "height": 649,
+  "pageWidth": 300,
+  "pageHeight": 649,
+  "timestamp": "2026-10-12T19:16:43.698Z",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "nodes": [
+        {
+          "target": [
+            "#list-view > span[aria-hidden=\"true\"]"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "target": [
+            "#zoom-reset"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        },
+        {
+          "target": [
+            "#search-button > span[aria-hidden=\"true\"]"
+          ],
+          "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+        }
+      ]
+    }
+  ],
+  "passes": 24
+}

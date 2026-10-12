@@ -1,0 +1,36 @@
+{
+  "url": "/",
+  "state": "details-dialog",
+  "width": 390,
+  "height": 844,
+  "pageWidth": 390,
+  "pageHeight": 844,
+  "timestamp": "2026-10-12T19:09:00.625Z",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "nodes": [
+        {
+          "target": [
+            "#county-details > p:nth-child(1)"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "target": [
+            "#county-details > p:nth-child(2)"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        },
+        {
+          "target": [
+            "#county-details > p:nth-child(4)"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        }
+      ]
+    }
+  ],
+  "passes": 15
+}

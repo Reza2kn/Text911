@@ -1,0 +1,30 @@
+{
+  "name": "text911",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "refresh": "python3 scripts/refresh.py",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/server.mjs",
+    "verify": "npm run build && npm test && python3 scripts/spot-check.py"
+  },
+  "dependencies": {
+    "d3-geo": "3.1.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "esbuild": "^0.25.12",
+    "marked": "^16.4.2",
+    "playwright": "1.56.1"
+  },
+  "description": "Phone-first map and lookup for the official FCC Text-to-911 readiness registry.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reza2kn/Text911.git"
+  },
+  "homepage": "https://reza2kn-text911.hf.space"
+}

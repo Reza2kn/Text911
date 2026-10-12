@@ -1,0 +1,9 @@
+.git
+.github
+.openai
+node_modules
+dist
+docs
+*.zip
+*.tar.gz
+__pycache__

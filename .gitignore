@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.openai/
+.env
+.env.*
+.venv/
+*.tmp
+__pycache__/

@@ -1,0 +1,24 @@
+{
+  "url": "/",
+  "state": "info-dialog",
+  "width": 390,
+  "height": 844,
+  "pageWidth": 390,
+  "pageHeight": 844,
+  "timestamp": "2026-10-12T19:10:43.058Z",
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "nodes": [
+        {
+          "target": [
+            "#info-dialog > p:nth-child(3)"
+          ],
+          "summary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+        }
+      ]
+    }
+  ],
+  "passes": 13
+}
